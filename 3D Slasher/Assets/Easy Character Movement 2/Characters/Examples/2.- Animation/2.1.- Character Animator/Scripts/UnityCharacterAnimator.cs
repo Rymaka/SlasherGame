@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace EasyCharacterMovement.Examples.Animation.UnityCharacterAnimatorExample
+namespace EasyCharacterMovement
 {
     /// <summary>
     /// This example shows how to externally animate a ECM2 character based on its current movement mode and / or state.

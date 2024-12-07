@@ -70,3 +70,10 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/3D Slasher/Library/Artifacts
+3D Slasher/Library/ArtifactDB
+/3D Slasher/Library/Bee
+/3D Slasher/Temp
+/3D Slasher/.idea/.idea.3D Slasher
+/3D Slasher/Library
+/3D Slasher/UserSettings

@@ -4841,7 +4841,6 @@ GameObject:
   - component: {fileID: 8707176759412412704}
   - component: {fileID: 4224218085958200578}
   - component: {fileID: 1353179435155718063}
-  - component: {fileID: 7832068173300371268}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Spawner
@@ -4915,16 +4914,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7832068173300371268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4587205031928329327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59c78396a1d4ebc40b7745e959c76252, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _particles: {fileID: 1213813359683622980}

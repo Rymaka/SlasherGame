@@ -85,3 +85,5 @@ crashlytics-build.properties
 /3D Slasher/Logs
 /3D Slasher/Library
 /3D Slasher/Library/StateCache
+3D Slasher/Library/ArtifactDB
+/3D Slasher/Library/Artifacts

@@ -36,7 +36,7 @@
                     "name": "Sprint",
                     "type": "Button",
                     "id": "79d9714e-bd15-4ad1-8049-4b95d58b9972",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -90,7 +90,7 @@
                     "name": "Action",
                     "type": "Button",
                     "id": "e4e4ae76-274d-45aa-b438-0785373a21e3",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -108,7 +108,7 @@
                     "name": "OpenMenu",
                     "type": "Button",
                     "id": "4ccb2af7-7e05-4922-b9b5-88f268c65634",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -135,6 +135,24 @@
                     "name": "Ultimate",
                     "type": "Button",
                     "id": "37f9530b-f64a-440d-b163-18f5714d24ff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "e195cfb6-b2e7-4b0d-9319-227e3e91c149",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack2",
+                    "type": "Button",
+                    "id": "ff673d6a-d0a9-4182-a79c-67d09b4363ee",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -436,6 +454,28 @@
                     "processors": "",
                     "groups": ";Keyboard And Mouse",
                     "action": "Ultimate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "16e403ae-5a4f-49aa-ae42-9f87183b2af2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard And Mouse",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e287b4e-13e6-41f2-ad03-8adf0c156a5f",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard And Mouse",
+                    "action": "Attack2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

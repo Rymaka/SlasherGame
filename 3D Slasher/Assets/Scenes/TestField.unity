@@ -4724,6 +4724,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 304361654003423997, guid: 1b7152958888f3248ad91e425326b2d5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1700882046}
+    - targetCorrespondingSourceObject: {fileID: 304361654003423997, guid: 1b7152958888f3248ad91e425326b2d5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1700882048}
   m_SourcePrefab: {fileID: 100100000, guid: 1b7152958888f3248ad91e425326b2d5, type: 3}
 --- !u!4 &1700882044 stripped
 Transform:
@@ -4748,6 +4751,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _character: {fileID: 1782200733}
+--- !u!95 &1700882047 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 304361654010685753, guid: 1b7152958888f3248ad91e425326b2d5, type: 3}
+  m_PrefabInstance: {fileID: 1700882043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1700882048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700882045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112eca5d7a981a94980b3bfff20289d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bufferController: {fileID: 1782200739}
 --- !u!1 &1717400818
 GameObject:
   m_ObjectHideFlags: 0
@@ -4888,6 +4909,8 @@ GameObject:
   - component: {fileID: 1782200735}
   - component: {fileID: 1782200734}
   - component: {fileID: 1782200733}
+  - component: {fileID: 1782200738}
+  - component: {fileID: 1782200739}
   m_Layer: 0
   m_Name: ECM2_Character
   m_TagString: Player
@@ -5068,6 +5091,43 @@ Transform:
   - {fileID: 418983470}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1782200738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782200732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcbff943ea512e4489a8c45c1e70387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _anim: {fileID: 1700882047}
+  _comboTrigger: Attack_1
+  _canAttack: 1
+  _canInput: 1
+--- !u!114 &1782200739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782200732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fdc8e77b8919e4e9ae8255652056e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canAttack: 1
+  _canInput: 1
+  _buffering: 0
+  _firstAttacked: 0
+  _inputAction: {fileID: 4084934911056629713, guid: 909c985f98606244581be8905cf2f256, type: 3}
+  _inputAction2: {fileID: -2177891063095122269, guid: 909c985f98606244581be8905cf2f256, type: 3}
+  _firstCombo: {fileID: 1782200738}
+  _secondCombo: {fileID: 1782200738}
+  _resetFirstAttackTimer: 0.2
 --- !u!1001 &1792165897
 PrefabInstance:
   m_ObjectHideFlags: 0

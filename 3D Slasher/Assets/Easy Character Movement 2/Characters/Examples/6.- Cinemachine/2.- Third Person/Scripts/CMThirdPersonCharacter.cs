@@ -21,7 +21,7 @@ namespace EasyCharacterMovement.Examples.Cinemachine.ThirdPersonExample
         #endregion
 
         #region FIELDS
-
+        [SerializeField] private  CharacterStateController _characterStateController;
         private float _pitch;
         private float _yaw;
 
@@ -75,6 +75,21 @@ namespace EasyCharacterMovement.Examples.Cinemachine.ThirdPersonExample
         public void LavaKnockout()
         {
             Knockout();
+        }
+        
+        private void CheckIfCanWalkState(){
+            var walkSpeed = _maxWalkSpeed;
+            if (!_characterStateController._canWalk)
+            {
+                _maxWalkSpeed = 0;
+            }
+            else
+            {
+                if (_maxWalkSpeed <= 0)
+                {
+                    _maxWalkSpeed = maxWalkSpeed;
+                }
+            }
         }
         protected override void HandleInput()
         {
